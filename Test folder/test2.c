@@ -6,15 +6,15 @@
  */
 void modif_my_char_var(char *cc, char ccc)  
 {
-//    *cc = 'o';
-//    ccc = 'l';
-//    cc = &ccc;
-//    printf("###################################\n");
-//    printf("The value of 'cc': %c\n", cc);
-//   /* printf("The address of 'cc': %p\n",&cc);*/
-//    printf("The value of 'ccc': %c\n", ccc);
-//    /*printf("The address of 'ccc': %p\n",&ccc);*/
-// }
+   *cc = 'o';
+   ccc = 'l';
+   cc = &ccc;
+   printf("###################################\n");
+   printf("The value of 'cc': %c\n", cc);
+  /* printf("The address of 'cc': %p\n",&cc);*/
+   printf("The value of 'ccc': %c\n", ccc);
+   /*printf("The address of 'ccc': %p\n",&ccc);*/
+}
 
 /**
  * main - Solve me
