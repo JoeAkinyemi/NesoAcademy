@@ -3,7 +3,7 @@
 
 int main(){
     int n, i, *p;
-    printf("Enter the total number of values:");
+    printf("Enter the total number of values: ");
     scanf("%d", &n);
 
     p = (int*)malloc(n*sizeof(int));
