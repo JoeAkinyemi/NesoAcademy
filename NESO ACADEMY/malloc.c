@@ -8,7 +8,7 @@ int main(){
 
     p = (int*)malloc(n*sizeof(int));
     
-    printf("\nenter the values:");
+    printf("\nEnter the values:");
     for(i=0; i<n; i++)
     {
         scanf("%d", (p+i));
