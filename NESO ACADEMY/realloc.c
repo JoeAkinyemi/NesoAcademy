@@ -28,5 +28,6 @@ int main(){
     {
         printf("\n%d\t", *(p1+i));
     }
+    /* we freed only p1 because it also pointed to p.*/
     free(p1);
 }
