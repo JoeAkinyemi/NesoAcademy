@@ -13,7 +13,7 @@ int main(){
     {
         scanf("%d", (p+i));
     }
-    /* Reallocation of the memory*/
+    /* Reallocation of the memory */
     printf("\nEnter the updated size of n: ");
     scanf("%d", &j);
 
