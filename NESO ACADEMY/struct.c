@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 struct employee{
+    // struct employee is a structure tag which is used to identify a particular kind of stucture. 
     char *name;
     int age;
     int salary;
